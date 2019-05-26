@@ -4,7 +4,7 @@ public class reverse {
 
     public  static  void  main(String[] args){
 
-        StringBuilder origStr = new StringBuilder("Shashi");
+        StringBuilder origStr = new StringBuilder("Shashi ");
         System.out.println(reverseMe(origStr));
     }
 
