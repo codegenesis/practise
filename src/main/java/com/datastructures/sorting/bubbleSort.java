@@ -1,4 +1,4 @@
-package com.datastructures;
+package com.datastructures.sorting;
 
 //Author Shashi Kant - Bubble Sort
 
@@ -24,8 +24,6 @@ public class bubbleSort {
             System.out.println("\n After Bubble Sort " +intArray[j]);
 
         }
-
-
 
     }
 
