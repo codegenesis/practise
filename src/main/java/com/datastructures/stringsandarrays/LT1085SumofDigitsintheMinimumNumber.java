@@ -1,4 +1,4 @@
-package com.datastructures.arrays;
+package com.datastructures.stringsandarrays;
 
 /*1085.Sum of Digits in the Minimum Number
         User Accepted:331

@@ -1,4 +1,4 @@
-package com.datastructures.arrays;
+package com.datastructures.stringsandarrays;
 
 public class ReverseArray {
 

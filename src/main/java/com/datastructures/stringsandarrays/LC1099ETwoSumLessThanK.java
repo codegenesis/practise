@@ -1,4 +1,4 @@
-package com.datastructures.arrays;
+package com.datastructures.stringsandarrays;
 
 /*1099. Two Sum Less Than K
         User Accepted: 625
