@@ -2,6 +2,7 @@ git stash list [<options>]  //shows the list of stashes
 git stash list --date=local //the date when the stash was created
 git stash apply // apply the stash
 git stash show [<options>] [<stash>]
+git stash show -p // shows the list of detailed commits in the stash
 git stash drop [-q|--quiet] [<stash>]
 git stash ( pop | apply ) [--index] [-q|--quiet] [<stash>]
 git stash branch <branchname> [<stash>]
