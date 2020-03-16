@@ -17,3 +17,9 @@ rebase commands
 ---------------------------
 
 git rebase develop // rebases local branch to latest develop 
+
+---------------------------
+git branch //lists all local branches
+git branch -a //list all reomote + local branches
+git branch -r //lists all remote branches
+
