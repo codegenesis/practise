@@ -13,10 +13,14 @@ git stash clear
 git stash create [<message>]
 git stash store [-m|--message <message>] [-q|--quiet] <commit>
 
-rebase commands
----------------------------
+-rebase------------------
 
 git rebase develop // rebases local branch to latest develop 
+
+-merge --------------------
+git merge --abort //aborts the merge
+git fetch //fetches any new changes or remote branches
+git checkout remote_branch //checks out remote_branch to local with the same name as remote_branch
 
 ---------------------------
 git branch //lists all local branches
@@ -25,4 +29,4 @@ git branch -r //lists all remote branches
 
 ---------------------------
 git branch -d branch_name //delete the local branch
-git checkout -b branch_name //creates and checkout local branch
+git checkout -b branch_name //creates and checkout remote branch with new branch_name
