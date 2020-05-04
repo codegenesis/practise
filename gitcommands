@@ -15,7 +15,8 @@ git stash store [-m|--message <message>] [-q|--quiet] <commit>
 
 -rebase------------------
 
-git rebase develop // rebases local branch to latest develop 
+git rebase develop // rebases local branch to latest develop
+git rev-list --left-right --count develop...feature_branch //develop is x commit ahead and y commit behind of feature branch
 
 -merge --------------------
 git merge --abort //aborts the merge
