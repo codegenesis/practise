@@ -32,3 +32,47 @@ git branch -r //lists all remote branches
 git branch -d branch_name //delete the local branch
 git checkout -b branch_name //creates and checkout remote branch with new branch_name
 git branch --set-upstream-to=origin/<branch> //set the local branch to upstream
+
+----------------------------------------------------------------------------------------------------
+How to cut the release branch from develop branch and prepare hotfix
+
+Release branches
+Release branches are created when the develop branch is at a stable point and release specific changes need to be made, such as bumping version numbers, etc. At that point, develop should be branched and the changes made before ultimately merging it into master and tagging the release. There should only be one active release branch at a time. Until the current release is wrapped up, merged into master and deleted, development of the next release should take place on develop. When develop reaches another state of stability for release, another release branch is be created.
+
+May branch off from: develop
+
+$ git checkout -b release-1.2 develop
+$ ./bump-version.sh 1.2
+$ git commit -a -m "Bumped version number to 1.2"
+Bug fixes made on a release branch may be merged back into develop continuously if needed, though ultimately they will be merged in when the release is finalized.
+
+Must merge back into: develop and master
+
+$ git checkout master
+$ git merge --no-ff release-1.2
+$ git tag 1.2
+
+$ git checkout develop
+$ git merge --no-ff release-1.2
+At this point the release branch is safe to delete, since the changes are reflected in develop and master. If the branch is remote, remove the remote branch also. $ git branch -d release-1.2
+
+Hotfix branches
+Patches that need to be made to the most recent production release are applied to a hotfix branch off master. For older releases, hotfixes branch off a support-* branch (explained later.)
+
+May branch off from: master
+
+$ git checkout -b hotfix-1.2.1 master
+$ ./bump-version.sh 1.2.1
+$ git commit -a -m "Bumped version number to 1.2.1"
+
+$ git commit -m "Fixed severe production problem"
+Must merge back into: develop and master
+
+$ git checkout master
+$ git merge --no-ff hotfix-1.2.1
+$ git tag 1.2.1
+Merge into develop only if there is no current release branch, otherwise, merge into release branch instead.
+
+$ git checkout develop
+$ git merge --no-ff hotfix-1.2.1
+Finally, delete. $ git branch -d hotfix-1.2.1
