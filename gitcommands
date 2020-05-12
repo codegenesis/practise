@@ -33,6 +33,11 @@ git branch -d branch_name //delete the local branch
 git checkout -b branch_name //creates and checkout remote branch with new branch_name
 git branch --set-upstream-to=origin/<branch> //set the local branch to upstream
 
+--------------------------------
+git log //shows all commit for that branch
+
+
+
 ----------------------------------------------------------------------------------------------------
 How to cut the release branch from develop branch and prepare hotfix
 
