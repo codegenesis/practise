@@ -23,3 +23,5 @@ Lambda Expression
 Git Commands List
 
 Unix Commands List
+
+shortcuts in Eclipse and Idea IntelliJ
