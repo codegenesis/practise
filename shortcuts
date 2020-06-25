@@ -12,4 +12,8 @@ mac
 Idea IntelliJ Shortcuts
 windows
 
+ctrl+shift+F7 //to higlight the usage of some variable
+F3 //To move to next occurance in the highlighted search
+shift+F3 //To move to previous occurance in the highlighted search
+
 Mac
