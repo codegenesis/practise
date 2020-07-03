@@ -5,6 +5,9 @@ ctrl+shift+R //Search dialog for resources, e.g., text files
 ctrl+shift+T //Search dialog for Java Types
 ctrl+shift+I //debug inspect element
 
+fore ctrl space //to create for each loop
+try ctrl space //to create try catch block
+
 
 mac
 
