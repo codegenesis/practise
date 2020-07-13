@@ -5,3 +5,4 @@ df //disk free
 
 Grep Commands
 
+grep "response is lllll" HomeAgain.log //to serach words in file
