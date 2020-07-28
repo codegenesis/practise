@@ -36,6 +36,11 @@ git branch --set-upstream-to=origin/<branch> //set the local branch to upstream
 --------------------------------
 git log //shows all commit for that branch
 
+---commit-----
+git commit -m "initial commit"
+
+---push-----
+git push origin "branch name" //commit will be pushed to the remote with branch name
 
 
 ----------------------------------------------------------------------------------------------------
