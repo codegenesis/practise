@@ -42,6 +42,15 @@ git commit -m "initial commit"
 ---push-----
 git push origin "branch name" //commit will be pushed to the remote with branch name
 
+---A new repo from an existing project and push to github
+Say you’ve got an existing project that you want to start tracking with git.
+
+echo "# sdcvsdvv" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/codegenesis/sdcvsdvv.git
+git push -u origin master
 
 ----------------------------------------------------------------------------------------------------
 How to cut the release branch from develop branch and prepare hotfix
