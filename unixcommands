@@ -7,3 +7,39 @@ Grep Commands
 
 $ grep "response is lllll" HomeAgain.log //to search the text in the file
 $ grep -B 5 -A 2 --color 'keyword' /path/to/file.log //to grep lines before and after the keyword
+
+vim commands - basic
+:w - Saves the file you are working on
+:wq - Save your file and close Vim
+:q! - Quit without first saving the file you were working on
+
+vim commands - for editing
+yy - Copies a line
+yw - Copies a word
+y$ - Copies from where your cursor is to the end of a line
+v - Highlight one character at a time using arrow buttons or the h, k, j, l buttons
+V - Highlights one line, and movement keys can allow you to highlight additional lines
+p - Paste whatever has been copied to the unnamed register
+d - Deletes highlighted text
+dd - Deletes a line of text
+dw - Deletes a word
+D - Deletes everything from where your cursor is to the end of the line
+d0 - Deletes everything from where your cursor is to the beginning of the line
+dgg - Deletes everything from where your cursor is to the beginning of the file
+dG - Deletes everything from where your cursor is to the end of the file
+x - Deletes a single character
+u - Undo the last operation; u# allows you to undo multiple actions
+Ctrl + r - Redo the last undo
+. - Repeats the last action
+
+vim commands - searching text
+/[keyword] - Searches for text in the document where keyword is whatever keyword, phrase or string of characters you're looking for
+?[keyword] - Searches previous text for your keyword, phrase or character string
+n - Searches your text again in whatever direction your last search was
+N - Searches your text again in the opposite direction
+:%s/[pattern]/[replacement]/g - This replaces all occurrences of a pattern without confirming each one
+:%s/[pattern]/[replacement]/gc - Replaces all occurrences of a pattern and confirms each one
+
+
+
+
