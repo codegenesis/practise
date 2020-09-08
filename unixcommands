@@ -8,6 +8,16 @@ Grep Commands
 $ grep "response is lllll" HomeAgain.log //to search the text in the file
 $ grep -B 5 -A 2 --color 'keyword' /path/to/file.log //to grep lines before and after the keyword
 
+Change ownership:
+Every file and directory on your Unix/Linux system is assigned 3 types of owner:
+User
+Group
+Other
+
+with this command we can change the owner user and group from root to jbossadmin.
+sudo chown -R jbossadmin:jbossadmin keys/
+
+
 vim commands - basic
 :w - Saves the file you are working on
 :wq - Save your file and close Vim
