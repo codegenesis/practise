@@ -13,6 +13,11 @@ git stash clear
 git stash create [<message>]
 git stash store [-m|--message <message>] [-q|--quiet] <commit>
 
+---diff-----------------
+git diff [filename] //Show differences between index and working tree; that is, changes you haven't staged to commit:
+git diff --cached [filename] //Show differences between current commit and index; that is, what you're about to commit (--staged does exactly the same thing, use what you like):
+git diff HEAD [filename] // Show differences between current commit and working tree:
+
 -rebase------------------
 
 git rebase develop // rebases local branch to latest develop
