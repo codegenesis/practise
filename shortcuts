@@ -8,13 +8,129 @@ ctrl+shift+I //debug inspect element
 fore ctrl space //to create for each loop
 try ctrl space //to create try catch block
 
-
 mac
-
+TODO
 
 Idea IntelliJ Shortcuts
 windows
 
+Productivity
+Ctrl+N	To quickly open any class.
+Ctrl+Shift+N	To quickly open any file.
+Ctrl+Shift+F12	Toggle tools (maximize/minimize code window).
+Ctrl+Space	Code completion.
+Alt+F7	To find all places where a particular class, method or variable is used in the whole project by positioning the caret at the symbol's name or at its usage in code.
+Crtl+P	To quickly see the documentation for the class or method used at the editor's caret.
+
+Editing
+Ctrl+Space	Basic code completion (the name of any class, method or variable)
+Ctrl+Shift+Space	Smart code completion (filters the list of methods and variables by expected type)
+Ctrl+Shift+Enter	Complete statement
+Ctrl+P	Parameter info (within method call arguments)
+Ctrl+Q	Quick documentation lookup
+Shift+F1	External Doc
+Ctrl+ mouse over code	Brief Info
+Ctrl+F1	Show descriptions of error or warning at caret
+Alt+Insert	Generate code... (Getters, Setters, Constructors, hashCode/equals, toString)
+Ctrl+O	Override methods
+Ctrl+I	Implement methods
+Ctrl+Alt+T	Surround with… (if..else, try..catch, for, synchronized, etc.)
+Ctrl+/	Comment/uncomment with line comment
+Ctrl+Shift+/	Comment/uncomment with block comment
+Ctrl+W	Select successively increasing code blocks
+Ctrl+Shift+W	Decrease current selection to previous state
+Alt+Q	Context info
+Alt+Enter	Show intention actions and quick-fixes
+Ctrl+Alt+L	Reformat code
+Ctrl+Alt+O	Optimize imports
+Ctrl+Alt+I	Auto-indent line(s)
+Tab/Shift+Tab	Indent/unindent selected lines
+Ctrl+X/Shift+Delete	Cut current line or selected block to clipboard
+Ctrl+C/Ctrl+Insert	Copy current line or selected block to clipboard
+Ctrl+V/Shift+Insert	Paste from clipboard
+Ctrl+Shift+V	Paste from recent buffers...
+Ctrl+D	Duplicate current line or selected block
+Ctrl+Y	Delete line at caret
+Ctrl+Shift+J	Smart line join
+Ctrl+Enter	Smart line split
+Shift+Enter	Start new line
+Ctrl+Shift+U	Toggle case for word at caret or selected block
+Ctrl+Shift+]/[	Select till code block end/start
+Ctrl+Delete	Delete to word end
+Ctrl+Backspace	Delete to word start
+Ctrl+ NumPad plus/-	Expand/collapse code block
+Ctrl+Shift+ NumPad plus/-	Expand all / collapse all
+Ctrl+F4	Close active editor tab
+Alt+F7/Ctrl+F7	Find usages / Find usages in file
+Ctrl+Shift+F7	Highlight usages in file
+Ctrl+Alt+F7	Show usages
+F5	Copy
+F6	Move
+Alt+Delete	Safe Delete
+Shift+F6	Rename
+Ctrl+F6	Change Signature
+Ctrl+Alt+N	Inline
+Ctrl+Alt+M	Extract Method
+Ctrl+Alt+V	Extract Variable
+Ctrl+Alt+F	Extract Field
+Ctrl+Alt+C	Extract Constant
+Ctrl+Alt+P	Extract Parameter
+
+Search/Replace
+Double Shift	Search everywhere
+Ctrl+F	Find
+F3/Shift+F3	Find next / Find previous
+Ctrl+R	Replace
+Ctrl+Shift+F	Find in path
+Ctrl+Shift+R	Replace in path
+
+Navigation
+Ctrl+N	Go to class
+Ctrl+Shift+N	Go to file
+Ctrl+Alt+Shift+N	Go to symbol
+Alt+ Right/Left	Go to next/previous editor tab
+F12	Go back to previous tool window
+Esc	Go to editor (from tool window)
+Shift+Esc	Hide active or last active window
+Ctrl+Shift+F4	Close active run/messages/find/... tab
+Ctrl+G	Go to line
+Ctrl+E	Recent files popup
+Ctrl+Alt+Arrow Left/Arrow Right	Navigate backward / navigate forward
+Ctrl+Shift+Backspace	Navigate to last edit location
+Alt+F1	Select current file or symbol in any view
+Ctrl+B/Ctrl+ Click	Go to declaration
+Ctrl+Alt+B	Go to implementation(s)
+Ctrl+Shift+I	Open quick definition lookup
+Ctrl+Shift+B	Go to type declaration
+Ctrl+U	Go to super-method/super-class
+Alt+Arrow Up/Arrow Down	Go to previous/next method
+Ctrl+]/[	Move to code block end / move to code start
+Ctrl+F12	File structure popup
+Ctrl+H	Type hierarchy
+Ctrl+Shift+H	Method hierarchy
+Ctrl+Alt+H	Call hierarchy
+F2/Shift+F2	Next/previous highlighted error
+F4/Ctrl+Enter	Edit source / View source
+Alt+Home	Show navigation bar
+F11	Toggle bookmark
+Ctrl+F11	Toggle bookmark with mnemonic
+Ctrl+0...9	Go to numbered bookmark
+Shift+F11	Show bookmarks
+
+General
+Alt+0...9	Open corresponding tool window
+Ctrl+S	Save all
+Ctrl+Alt+Y	Synchronize
+Ctrl+Shift+F12	Toggle maximizing editor
+Alt+Shift+F	Add to Favorites
+Alt+Shift+I	Inspect current file with current profile
+Ctrl+`	Quick switch current scheme
+Ctrl+Alt+S	Open Settings dialog
+Ctrl+Alt+Shift+S	Open Project Structure dialog
+Ctrl+Shift+A	Find Action
+Ctrl+Tab	Switch between tabs and tool window
+Ctrl+Shift+Alt+Insert	Create new scratch file
+    
 ctrl+shift+F7 //to higlight the usage of some variable
 F3 //To move to next occurance in the highlighted search
 shift+F3 //To move to previous occurance in the highlighted search
