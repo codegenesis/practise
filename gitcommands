@@ -13,6 +13,10 @@ git stash clear
 git stash create [<message>]
 git stash store [-m|--message <message>] [-q|--quiet] <commit>
 
+------tags--------------
+git fetch --tags //to fetch latest tags
+git checkout tags/tagname -n branch_name //checks out the tag to a new branch
+
 ---diff-----------------
 git diff [filename] //Show differences between index and working tree; that is, changes you haven't staged to commit:
 git diff --cached [filename] //Show differences between current commit and index; that is, what you're about to commit (--staged does exactly the same thing, use what you like):
