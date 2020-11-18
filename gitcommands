@@ -13,6 +13,9 @@ git stash clear
 git stash create [<message>]
 git stash store [-m|--message <message>] [-q|--quiet] <commit>
 
+------fetch--------
+git fetch //It will download the remote content but not update your local repo's working state
+
 ------tags--------------
 git fetch --tags //to fetch latest tags
 git checkout tags/tagname -n branch_name //checks out the tag to a new branch
