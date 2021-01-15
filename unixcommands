@@ -50,6 +50,7 @@ N - Searches your text again in the opposite direction
 :%s/[pattern]/[replacement]/g - This replaces all occurrences of a pattern without confirming each one
 :%s/[pattern]/[replacement]/gc - Replaces all occurrences of a pattern and confirms each one
 
-
+log commands
+[ha_admin@hadevapp1 ~]$ tail -F -n500 /u02/jboss7.1/standalone/log/HomeAgain.log // to see following/rolling logs from the log file.
 
 
