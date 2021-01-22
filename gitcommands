@@ -13,6 +13,12 @@ git stash clear
 git stash create [<message>]
 git stash store [-m|--message <message>] [-q|--quiet] <commit>
 
+------------log----------------
+git log //shows commit history
+git log -5 //show most recent 5 commits
+git log -All //show all previous commits
+git log --after "2014-02-01" --before "2014-02-02" //to see the commits that occurred before and after
+
 ------fetch--------
 git fetch //It will download the remote content but not update your local repo's working state
 
