@@ -3,6 +3,9 @@ Use below commands to check the unix server
 du //disk usage
 df //disk free
 
+Use below commands for network statistics
+netstat -tunlp | grep 7001 // TO check if 7001 port is being listened
+
 Grep Commands
 
 $ grep "response is lllll" HomeAgain.log //to search the text in the file
