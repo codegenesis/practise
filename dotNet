@@ -2,3 +2,5 @@ Dot Net Learning and commands
 
 PS C:\myfiles\merck\code\BatchFeedAPI\HAZuoraBatch> dotnet --version
 5.0.102
+
+PS C:\myfiles\merck\code\BatchFeedAPI\HAZuoraBatch\HAZuoraBatch> dotnet build
