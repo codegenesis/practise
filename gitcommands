@@ -58,6 +58,7 @@ git log //shows all commit for that branch
 git commit -m "initial commit"
 
 ---push-----
+git push origin develop //commit from develop in local would be pushed to the develop branch in the remote
 git push origin "branch name" //commit will be pushed to the remote with branch name
 git push -f origin "remote branch" //to forcefully commit local changes to remote
 
