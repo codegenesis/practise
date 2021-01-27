@@ -127,10 +127,15 @@ Merge into develop only if there is no current release branch, otherwise, merge 
 $ git checkout develop
 $ git merge --no-ff hotfix-1.2.1
 Finally, delete. $ git branch -d hotfix-1.2.1
+-------------------------------------------------------
+Cherry pic
+
+Once you merge the PR to Release_1.1 branch then use the cherry pick to also merge the changes to develop. This helps to commit the changes to develop branch also and keep the develop
+branch consistent.
 
 ----------------------------------------------------------------------------------------------------------------
 
 How to create a Tag in Azure Dev Ops
 
-
+-----------------
 
