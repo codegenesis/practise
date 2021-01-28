@@ -24,6 +24,7 @@ git fetch //It will download the remote content but not update your local repo's
 
 ------tags--------------
 git fetch --tags //to fetch latest tags
+git fetch --all --tags//To fetch all tags from your remote repository
 git checkout tags/tagname -n branch_name //checks out the tag to a new branch
 
 ---diff-----------------
