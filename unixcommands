@@ -8,7 +8,7 @@ netstat -tunlp | grep 7001 // TO check if 7001 port is being listened
 
 Grep Commands
 
-$ grep "response is lllll" HomeAgain.log //to search the text in the file
+$ grep "response is lllll" LogName.log //to search the text in the file
 $ grep -B 5 -A 2 --color 'keyword' /path/to/file.log //to grep lines before and after the keyword
 
 Change ownership:
@@ -76,6 +76,6 @@ N - Searches your text again in the opposite direction
 :%s/[pattern]/[replacement]/gc - Replaces all occurrences of a pattern and confirms each one
 
 log commands
-[ha_admin@hadevapp1 ~]$ tail -F -n500 /u02/jboss7.1/standalone/log/logfile_name.log // to see following/rolling logs from the log file.
+[admin@devapp1 ~]$ tail -F -n500 /path/log/logfile_name.log // to see following/rolling logs from the log file.
 
 
